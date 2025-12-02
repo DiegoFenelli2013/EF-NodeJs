@@ -28,7 +28,9 @@ npm install
  ├─ routes/ # rutas de la API (auth, products, etc.)  
  ├─ controllers/ # lógica de controladores  
  ├─ middleware/ # middlewares (autenticación, etc.)  
- └─ data/ # utilidades auxiliares (token, configuración, etc.)
+ ├─ data/ # utilidades auxiliares (token, configuración, etc.)  
+ ├─ models/ # Modelo de datos ( estructuras de datos, conexion DB, etc.)  
+ └─ services/ # Logica de negocio ( validaciones, adaptacion de datos, etc.)
 
 | Ruta                   | Método | Descripción                   | Protegida |
 | ---------------------- | ------ | ----------------------------- | --------- |
