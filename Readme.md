@@ -21,7 +21,7 @@ cd EF-NodeJs
 npm install
 ```
 
-/ (raíz)
+/ (raíz)  
 ├─ index.js # servidor principal / punto de entrada  
 ├─ .env # variables de entorno  
 └─ src/  
