@@ -38,3 +38,22 @@ npm install
 | `/api/products/create` | POST   | Crear un nuevo producto       | ✅ Sí     |
 | `/api/products/:id`    | PUT    | Actualizar producto por ID    | ✅ Sí     |
 | `/api/products/:id`    | DELETE | Eliminar producto por ID      | ✅ Sí     |
+
+🧪 Uso / Ejemplos
+
+Ejemplo de request para login (Postman / fetch / axios):
+
+GET /auth/login
+
+Content-Type: application/json
+
+{
+"email": "usuario@ejemplo.com",
+"password": "123456"
+}
+
+Ejemplo de respuesta:
+
+{
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..."
+}
