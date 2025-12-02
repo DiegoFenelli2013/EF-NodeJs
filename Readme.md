@@ -31,8 +31,8 @@ npm install
  └─ data/ # utilidades auxiliares (token, configuración, etc.)
 
 | Ruta                   | Método | Descripción                   | Protegida |
-| ---------------------- | ------ | ----------------------------- | --------- | --- |
-| `/auth/login`          | GET    | Login de usuario (genera JWT) | No        |     |
+| ---------------------- | ------ | ----------------------------- | --------- |
+| `/auth/login`          | GET    | Login de usuario (genera JWT) | ✅ No     |
 | `/api/products`        | GET    | Listar productos              | ✅ No     |
 | `/api/products/:id`    | GET    | Listar un producto            | ✅ No     |
 | `/api/products/create` | POST   | Crear un nuevo producto       | ✅ Sí     |
